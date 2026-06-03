@@ -1,0 +1,15 @@
+2026-06-03 15:02:19,909 | INFO | VehicleScheduler | ==================================================
+2026-06-03 15:02:19,917 | INFO | VehicleScheduler | Vehicle Maintenance Scheduler Started
+2026-06-03 15:02:19,931 | INFO | VehicleScheduler | ==================================================
+2026-06-03 15:02:19,951 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/depots | Sending request...
+2026-06-03 15:02:19,955 | DEBUG | urllib3.connectionpool | Starting new HTTP connection (1): 4.224.186.213:80
+2026-06-03 15:02:20,044 | DEBUG | urllib3.connectionpool | http://4.224.186.213:80 "GET /evaluation-service/depots HTTP/1.1" 401 41
+2026-06-03 15:02:20,051 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/depots | Status: 401
+2026-06-03 15:02:20,066 | INFO | VehicleScheduler | Fetched 0 depots
+2026-06-03 15:02:20,067 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/vehicles | Sending request...
+2026-06-03 15:02:20,080 | DEBUG | urllib3.connectionpool | Starting new HTTP connection (1): 4.224.186.213:80
+2026-06-03 15:02:20,157 | DEBUG | urllib3.connectionpool | http://4.224.186.213:80 "GET /evaluation-service/vehicles HTTP/1.1" 401 41
+2026-06-03 15:02:20,161 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/vehicles | Status: 401
+2026-06-03 15:02:20,162 | DEBUG | VehicleScheduler | Vehicles raw keys: ['message']
+2026-06-03 15:02:20,162 | INFO | VehicleScheduler | Total tasks: 0
+2026-06-03 15:02:20,164 | INFO | VehicleScheduler | Results saved to output.json

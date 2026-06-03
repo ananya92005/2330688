@@ -1,0 +1,18 @@
+2026-06-03 15:10:37,712 | INFO | VehicleScheduler | ==================================================
+2026-06-03 15:10:37,712 | INFO | VehicleScheduler | Vehicle Maintenance Scheduler Started
+2026-06-03 15:10:37,713 | INFO | VehicleScheduler | ==================================================
+2026-06-03 15:10:37,713 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/depots | Sending request...
+2026-06-03 15:10:37,717 | DEBUG | urllib3.connectionpool | Starting new HTTP connection (1): 4.224.186.213:80
+2026-06-03 15:10:37,804 | DEBUG | urllib3.connectionpool | http://4.224.186.213:80 "GET /evaluation-service/depots HTTP/1.1" 200 126
+2026-06-03 15:10:37,805 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/depots | Status: 200
+2026-06-03 15:10:37,805 | INFO | VehicleScheduler | Fetched 4 depots
+2026-06-03 15:10:37,805 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/vehicles | Sending request...
+2026-06-03 15:10:37,807 | DEBUG | urllib3.connectionpool | Starting new HTTP connection (1): 4.224.186.213:80
+2026-06-03 15:10:37,892 | DEBUG | urllib3.connectionpool | http://4.224.186.213:80 "GET /evaluation-service/vehicles HTTP/1.1" 200 None
+2026-06-03 15:10:37,893 | INFO | VehicleScheduler | HTTP GET | URL: http://4.224.186.213/evaluation-service/vehicles | Status: 200
+2026-06-03 15:10:37,893 | INFO | VehicleScheduler | Total tasks fetched: 39
+2026-06-03 15:10:37,895 | INFO | VehicleScheduler | Depot 1 | Budget: 60h | Tasks Selected: 23 | Total Impact: 140
+2026-06-03 15:10:37,899 | INFO | VehicleScheduler | Depot 2 | Budget: 135h | Tasks Selected: 34 | Total Impact: 187
+2026-06-03 15:10:37,905 | INFO | VehicleScheduler | Depot 3 | Budget: 188h | Tasks Selected: 39 | Total Impact: 193
+2026-06-03 15:10:37,908 | INFO | VehicleScheduler | Depot 4 | Budget: 97h | Tasks Selected: 28 | Total Impact: 170
+2026-06-03 15:10:37,910 | INFO | VehicleScheduler | Results saved to output.json
